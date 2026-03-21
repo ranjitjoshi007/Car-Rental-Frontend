@@ -1,9 +1,9 @@
-import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router";
 import CarList from "./pages/CarList"; 
 import CarDetails from "./pages/CarDetails"; 
 import SuccessPage from "./pages/SuccessPage"; 
 import Navbar from "./components/Navbar";
+import './App.css';
 function App() {
   return (
     <BrowserRouter>

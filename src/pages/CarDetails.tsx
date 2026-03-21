@@ -1,5 +1,5 @@
 import {  useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router";
 import { getCarById } from "../api/CarApi";
 import { checkAvailability, createBooking, getAllCarbookings,cancelBooking } from "../api/BookingApi";
 import { Booking, Car } from "../types";
