@@ -1,9 +1,8 @@
-import { use, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { getCarById } from "../api/CarApi";
 import { checkAvailability, createBooking, getAllCarbookings,cancelBooking } from "../api/BookingApi";
 import { Booking, Car } from "../types";
-import { log } from "console";
 
 const CarDetails: React.FC = () => {
   const { id } = useParams();
