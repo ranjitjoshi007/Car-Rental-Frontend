@@ -8,7 +8,6 @@ const CarDetails: React.FC = () => {
   const { id } = useParams();
   const carId = Number(id);
   const navigate = useNavigate();
-
   const [car, setCar] = useState<Car | null>(null);
   const [customerName, setCustomerName] = useState("");
   const [startDate, setStartDate] = useState("");
