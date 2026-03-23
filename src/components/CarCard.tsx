@@ -9,8 +9,7 @@ const CarCard: React.FC<Props> = ({ car }) => {
   return (
     <div
       style={{
-        border: "1px solid #ddd",borderRadius: "8px",
-        padding: "12px",
+        border: "1px solid #ddd",borderRadius: "8px",padding: "12px",
         width: "260px",
       }}
     >
